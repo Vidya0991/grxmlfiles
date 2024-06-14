@@ -19,6 +19,7 @@ public class Occurrence extends ActionElementBase{
 			 count++;
 			 data.addToLog("Occurence", String.valueOf(count));
 			 data.setSessionData("Occurence", String.valueOf(count));
+			System.out.println("Hello World")
 			
 		}
 
